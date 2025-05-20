@@ -59,3 +59,18 @@ moodtoon.net^*/*.gif$image
 moodtoon.net##[id*="ads-"]
 moon-toon.com^*/*.gif$image
 moon-toon.com##[id*="ads-"]
+popsmanga.com^*/*.gif$image
+popsmanga.com##[id*="ads-"]
+
+manga1688.com##center
+popsmanga.com##.dessert-frame > center
+popsmanga.com##div#wbnn
+popsmanga.com##.kln
+manga1688.com##div.kln:nth-of-type(3)
+manga1688.com##.wbnn*
+manga1688.com##div#wbnn
+www.up-manga.com##div.center_upmangaza
+www.up-manga.com##div.center_upmangasolo3
+manga1688.com##div.dessert-frame
+manga1688.com##div.kln:nth-of-type(3)
+www.oremanga.net##.header-ads-section
