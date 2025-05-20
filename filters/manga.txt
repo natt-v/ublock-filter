@@ -51,3 +51,11 @@ up-manga.com###content > div.wrapper > div.center_upmangaza3
 go-manga.com###content > div.wrapper > div.center_gomanga
 go-manga.com###sticky-bottom2
 go-manga.com###sticky-bottom3
+manga1688.com^*/*.gif$image
+manga1688.com##[id*="ads-"]
+up-manga.com^*/*.gif$image
+up-manga.com##[id*="ads-"]
+moodtoon.net^*/*.gif$image
+moodtoon.net##[id*="ads-"]
+moon-toon.com^*/*.gif$image
+moon-toon.com##[id*="ads-"]
