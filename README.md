@@ -19,7 +19,7 @@ To use these filters, subscribe to the main manifest file in uBlock Origin:
 2.  Check "Import".
 3.  Paste the following URL (once hosted, e.g., on GitHub):
     ```
-    https://raw.githubusercontent.com/peerasak-u/ublock-filter/refs/heads/main/ublock-th-filters.txt
+    https://raw.githubusercontent.com/natt-v/ublock-filter/refs/heads/main/ublock-th-filters.txt
     ```
 4.  Click "Apply changes".
 
