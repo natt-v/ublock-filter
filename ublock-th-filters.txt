@@ -1,7 +1,7 @@
 ! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
-! Last modified: 2025-05-20
+! Last modified: 2025-06-03
 ! Expires: 1 day (update frequency)
 
 
@@ -104,6 +104,9 @@ popsmanga.com##.kln
 manga1688.com##div.kln:nth-of-type(3)
 manga1688.com##.wbnn*
 manga1688.com##div#wbnn
+manga1688.com##div.slider-ads
+manga1688.com##[src*=".gif"]
+
 www.up-manga.com##div.center_upmangaza
 www.up-manga.com##div.center_upmangasolo3
 manga1688.com##div.dessert-frame
