@@ -31,3 +31,5 @@ animeruka.com##[class*="ads"]
 animeruka.com##[id*="ads"]
 animeruka.com#?#div[class*="code-block-"]:has(img[alt="Advertisement"])
 animeruka.com###single div.code-block
+animeruka.com###box-side-r
+animeruka.com###box-side-l
