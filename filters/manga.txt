@@ -55,6 +55,7 @@ manga1688.com^*/*.gif$image
 manga1688.com##[id*="ads-"]
 up-manga.com^*/*.gif$image
 up-manga.com##[id*="ads-"]
+up-manga.com##div.center_upmanga > *
 moodtoon.net^*/*.gif$image
 moodtoon.net##[id*="ads-"]
 moon-toon.com^*/*.gif$image
