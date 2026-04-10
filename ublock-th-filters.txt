@@ -1,7 +1,7 @@
 ! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
-! Last modified: 2026-03-27
+! Last modified: 2026-04-10
 ! Expires: 1 day (update frequency)
 
 
@@ -195,6 +195,52 @@ www.037hdmovie.com###ads-sidebar-single-bottom
 ||videos.cdnstorage-1.top/ufafat-v.mp4$media
 ||videos.cdnstorage-1.top/huayhit88.mp4$media
 ||videos.cdnstorage-1.top/sa168.mp4$media
+
+
+!__________________________ Google & Youtube Ads __________________________
+# Zero Ads in Youtube Videos | No watermarks, Cards, Info. Nothing! Zilch! Nada!
+||youtube.com/annotations_
+youtube.com##.ytp-ce-element-show
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-cards-teaser-text
+youtube.com##.ytp-cards-button-icon-default
+youtube.com##.annotation-type-text.annotation
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com###offer-module > .ytd-watch.style-scope
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape
+youtube.com##.annotation-type-text.annotation-speech-shape.annotation-shape
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(3)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(7)
+youtube.com##.annotation-type-text.annotation-popup-shape.annotation-shape:nth-of-type(5)
+youtube.com##.branding-img-container
+/endscreen.js$script,domain=www.youtube.com
+youtube.com/annotations_
+m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(1) > lazy-list > .item
+youtube.com###chat
+
+! Hide Live Chat AI Summary
+www.youtube.com###live-chat-banner > .yt-live-chat-banner-manager.style-scope:has-text(/Chat summary/i)
+
+! Hide "Enhanced Bitrate" quality option at the top within the settings gear icon sub-menu:
+youtube.com##.ytp-quality-menu.ytp-panel > .ytp-panel-menu > div.ytp-menuitem:has-text(/Enhanced bitrate/i)
+
+! Hide Youtube Playables from the Youtube Home feed
+youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope:nth-of-type(1):has-text(/Playables/i)
+youtube.com##ytd-rich-section-renderer.yte-hide-shorts.ytd-rich-grid-renderer.style-scope:nth-of-type(2):has-text(/Playables/i)
+
+
+# generic sponsored content eliminator
+~google.com##div.result[id*="sponsored"]
+
+# Remove main page Shorts block
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+
+# Remove sidebar footer
+www.youtube.com###footer
+
+# Hide "Member Only" Videos, "More from Youtube"
+youtube.com##ytd-rich-item-renderer:has(badge-shape.yt-badge-shape--commerce)
+youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
 
 ! === End of movie filters ===
 
