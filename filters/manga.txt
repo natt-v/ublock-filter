@@ -87,6 +87,9 @@ www.up-manga.com##div#sticky-bottom
 www.up-manga.com##div#sticky-bottom2
 www.up-manga.com##div#sticky-bottom3
 www.up-manga.com##div#sticky-bottom4
+www.up-manga.com###sticky-bottom3 > *
+www.up-manga.com###sticky-bottom2 > *
+www.up-manga.com###sticky-bottom > *
 manga1688.com##div.dessert-frame
 manga1688.com##div.kln:nth-of-type(3)
 www.oremanga.net##.header-ads-section
