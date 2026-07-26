@@ -147,13 +147,22 @@ www.up-manga.com##div.center_upmangasolo3
 www.up-manga.com##div.center_upmangasolo4
 www.up-manga.com##div.center_upmangasolo5
 www.up-manga.com##div.center_upmanga
-www.up-manga.com##div#sticky-bottom
-www.up-manga.com##div#sticky-bottom2
-www.up-manga.com##div#sticky-bottom3
-www.up-manga.com##div#sticky-bottom4
-www.up-manga.com###sticky-bottom3 > *
-www.up-manga.com###sticky-bottom2 > *
-www.up-manga.com###sticky-bottom > *
+www.up-manga.com##div#sticky-bottom > *
+www.up-manga.com##div#sticky-bottom2 > *
+www.up-manga.com##div#sticky-bottom3 > *
+www.up-manga.com##div#sticky-bottom4 > *
+up-manga.com##div.center_upmangaza
+up-manga.com##div.center_upmangasolo
+up-manga.com##div.center_upmangasolo1
+up-manga.com##div.center_upmangasolo2
+up-manga.com##div.center_upmangasolo3
+up-manga.com##div.center_upmangasolo4
+up-manga.com##div.center_upmangasolo5
+up-manga.com##div.center_upmanga
+up-manga.com##div#sticky-bottom > *
+up-manga.com##div#sticky-bottom2 > *
+up-manga.com##div#sticky-bottom3 > *
+up-manga.com##div#sticky-bottom4 > *
 manga1688.com##div.dessert-frame
 manga1688.com##div.kln:nth-of-type(3)
 www.oremanga.net##.header-ads-section
