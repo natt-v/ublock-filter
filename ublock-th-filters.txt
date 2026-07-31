@@ -1,7 +1,7 @@
 ! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
-! Last modified: 2026-07-26
+! Last modified: 2026-07-31
 ! Expires: 1 day (update frequency)
 
 
@@ -263,6 +263,28 @@ www.youtube.com###footer
 # Hide "Member Only" Videos, "More from Youtube"
 youtube.com##ytd-rich-item-renderer:has(badge-shape.yt-badge-shape--commerce)
 youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(5)
+
+
+! Block overlay ad containers
+## #AdWidgetContainer
+## #ad720
+## #onexbet
+## #histats_counter
+## #loading_overlay
+
+! Block external ad/tracker scripts seen in the source
+||cloudnestra.com/asdf.js$script
+||cloudnestra.com^$third-party
+||s10.histats.com^$script
+||histats.com^$third-party
+||static.cloudflareinsights.com/beacon.min.js$script
+||unpkg.com/disable-devtool@*$script
+
+! Block popup behavior from click-triggered scripts
+*$popup,domain=put-the-site-domain-here
+
+! Optional: block iframe player source if it is only serving ads/popups
+||cloudnestra.com/rcp/$subdocument
 
 ! === End of movie filters ===
 
