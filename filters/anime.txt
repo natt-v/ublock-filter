@@ -31,6 +31,18 @@ animewaku.com##[class*="ads"]
 animewaku.com##[id*="ads"]
 animewaku.com#?#div[class*="code-block-"]:has(img[alt="Advertisement"])
 animewaku.com###single div.code-block
+anime-waku.com###contenedor > div.module:last-child > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+anime-waku.com###single > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+anime-waku.com###single > div.module_home_x:nth-child(2) > center > div.code-block.code-block-1:first-child
+anime-waku.com###single > div.content:nth-child(3) > center:nth-child(5) > div.code-block.code-block-3:first-child
+anime-waku.com###single > div.content:nth-child(3) > center:nth-child(2) > div.code-block.code-block-2:first-child
+anime-waku.com###single > div.content div[id*='ads']
+anime-waku.com###single > div.content:nth-child(2) > center:nth-child(3) > div.code-block.code-block-4:first-child > a:last-child > img.animekimi-banner
+anime-waku.com##.animekimi-banner
+anime-waku.com##[class*="ads"]
+anime-waku.com##[id*="ads"]
+anime-waku.com#?#div[class*="code-block-"]:has(img[alt="Advertisement"])
+anime-waku.com###single div.code-block
 
 animeruka.com###contenedor > div.module:last-child > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
 animeruka.com###single > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
@@ -47,3 +59,18 @@ animeruka.com###single div.code-block
 animeruka.com###box-footer-fix
 animeruka.com###box-side-r
 animeruka.com###box-side-l
+anime-ruka.com###contenedor > div.module:last-child > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+anime-ruka.com###single > div.module_home_x:first-child > center > div.code-block.code-block-1:first-child
+anime-ruka.com###single > div.module_home_x:nth-child(2) > center > div.code-block.code-block-1:first-child
+anime-ruka.com###single > div.content:nth-child(3) > center:nth-child(5) > div.code-block.code-block-3:first-child
+anime-ruka.com###single > div.content:nth-child(3) > center:nth-child(2) > div.code-block.code-block-2:first-child
+anime-ruka.com###single > div.content div[id*='ads']
+anime-ruka.com###single > div.content:nth-child(2) > center:nth-child(3) > div.code-block.code-block-4:first-child > a:last-child > img.animekimi-banner
+anime-ruka.com##.animekimi-banner
+anime-ruka.com##[class*="ads"]
+anime-ruka.com##[id*="ads"]
+anime-ruka.com#?#div[class*="code-block-"]:has(img[alt="Advertisement"])
+anime-ruka.com###single div.code-block
+anime-ruka.com###box-footer-fix
+anime-ruka.com###box-side-r
+anime-ruka.com###box-side-l
