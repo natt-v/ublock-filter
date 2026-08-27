@@ -1,7 +1,7 @@
 ! Title: Thai Content Filters
 ! Description: Filters for Thai movie, manga, anime, and series websites.
 ! Homepage: https://github.com/peerasak/ublock-filter-th # Replace with your actual repo URL if different
-! Last modified: 2026-08-24
+! Last modified: 2026-08-27
 ! Expires: 1 day (update frequency)
 
 
@@ -338,6 +338,33 @@ www.serieday-hd.com##div.movietext:nth-of-type(6)
 www.serieday-hd.com##div.movie:nth-of-type(7)
 www.serieday-hd.com##.content-site
 
+www.seriedays.com##.ad
+www.seriedays.com##.content-col2 > .adcen
+www.seriedays.com##.right-menu > .adhl
+www.seriedays.com##.adlf > .adhl
+www.seriedays.com##.adl
+www.seriedays.com##.mcommanr
+www.seriedays.com##.col-in1
+www.seriedays.com##.col-in4
+www.seriedays.com##.col-in3
+www.seriedays.com##.content-col1
+www.seriedays.com##div.movietext:nth-of-type(6)
+www.seriedays.com##div.movie:nth-of-type(7)
+www.seriedays.com##.content-site
+
+seriedays.com##.ad
+seriedays.com##.content-col2 > .adcen
+seriedays.com##.right-menu > .adhl
+seriedays.com##.adlf > .adhl
+seriedays.com##.adl
+seriedays.com##.mcommanr
+seriedays.com##.col-in1
+seriedays.com##.col-in4
+seriedays.com##.col-in3
+seriedays.com##.content-col1
+seriedays.com##div.movietext:nth-of-type(6)
+seriedays.com##div.movie:nth-of-type(7)
+seriedays.com##.content-site
 
 ! === End of series filters ===
 
